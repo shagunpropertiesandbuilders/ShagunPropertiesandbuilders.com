@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        *{
+    margin:0px;
+    padding:0px;
+}
+body{
+  background:linear-gradient(
+                              to right,
+                             rgb(24, 203, 24),
+                             rgb(255, 174, 0)
+                          
+  );
+}
+.main{
+    background-color: rgb(90, 204, 197);
+    text-align: center;
+    margin:150px;
+    padding:10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 10px;
+
+}
+.button{
+  background-color: black;
+  font-size:20px;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <marquee direction="LEFT" style="background-color: rgb(2, 20, 20);">
+        <H1 style="color:white">SHAGUN PROPERTIES AND BUILDERS</H1>
+    </marquee>
+<button class="button"><a href="C:\Users\lenovo\OneDrive\Documents\website html and design\real-estates.html">Home</a></button>
+<div class="main"> 
+    <h1>Login</h1>
+<!--input tags-->
+<!--Name-->
+    <label for="f_Name">first Name:</label>
+    <input type="text" name="f_Name" id="f_Name">
+<!--Father Name-->
+    <lable for="l_name">Last Name:</lable>
+    <input type="text" name="l_name" id="l_name">
+<br><br>
+<!--password-->
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password">
+<br><br>
+<!--radio Buttons-->
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender" id="m">
+    <label for="m">Male</label>
+    <input type="radio" name="gender" id="f">
+    <label for="f">Female</label>
+<br><br>
+
+<!--select Tags-->
+    <label for="city">Selct Your City:</label>
+<select name="city" id="city">
+    <option value="1">Jaipur</option>
+    <option value="2">Tonk</option>
+    <option value="3">Ajmer</option>
+</select>
+<br>
+<br>
+        <input type="submit" value="LOGIN">
+        <input type="reset" value="RESET">
+
+
+</div>
+    
+</body>
+</html>
